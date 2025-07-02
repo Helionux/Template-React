@@ -40,12 +40,13 @@ function Hero() {
   }, [])
 
   const [isOpen, setOpen] = useState(false)
+  const [theme, setTheme] = useState('light')
 
   return (
-    <section className="bg-gradient-to-b px-3 sm:px-10 from-[#F5F7FF] via-[#fffbee] to-[#E6EFFF] pt-6 h-full">
-      <header className="flex items-center justify-between px-6 py-3 md:py-4 shadow-sm max-w-5xl rounded-full mx-auto w-full bg-white">
+    <section className="bg-gradient-to-b px-5 sm:px-10 from-[#00ec206c] via-[#4d92449d] to-[#4e8a1583] pt-6 h-full dark:bg-gray-900 text-gray-900 dark:text-gray-100 dar">
+      <header className="flex items-center justify-between px-6 py-3 md:py-4 shadow-sm max-w-5xl rounded-full mx-auto w-full bg-[#fdfdfdef]">
         <nav
-          className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:overflow-hidden items-center justify-center transition-[width] bg-white/50 backdrop-blur flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal
+          className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:overflow-hidden items-center justify-center transition-[width] backdrop-blur flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal
         ${
           isOpen
             ? 'max-md:w-full max-md:h-full px-8 py-8 z-50'
@@ -104,25 +105,53 @@ function Hero() {
           <button
             className="size-8 flex items-center justify-center hover:bg-gray-100 transition border border-slate-300 rounded-md"
             aria-label="Settings"
+            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
           >
-            <svg
-              width="15"
-              height="15"
-              viewBox="0 0 15 15"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7.5 10.39a2.889 2.889 0 1 0 0-5.779 2.889 2.889 0 0 0 0 5.778M7.5 1v.722m0 11.556V14M1 7.5h.722m11.556 0h.723m-1.904-4.596-.511.51m-8.172 8.171-.51.511m-.001-9.192.51.51m8.173 8.171.51.511"
-                stroke="#353535"
-                strockeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            {theme === 'light' ? (
+              // Icône lune (mode sombre)
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 1 0 9.79 9.79z"
+                  stroke="#353535"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            ) : (
+              // Icône soleil (mode clair)// Icône soleil (mode clair)
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="5"
+                  stroke="#353535"
+                  strokeWidth="1.5"
+                />
+                <path
+                  d="M12 1v2m0 18v2m10-11h-2M4 12H2m16.95-7.05l-1.41 1.41M5.05 18.36l-1.41 1.41m13.94-13.94l-1.41 1.41M5.05 5.05l-1.41 1.41"
+                  stroke="#353535"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            )}
           </button>
           <Link
-            className="hidden md:flex bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 transition"
+            className="hidden md:flex bg-gradient-to-br from-green-700 to-green-500 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 transition"
             to="/login"
           >
             Se connecter
@@ -149,11 +178,11 @@ function Hero() {
       </header>
       <main className="flex-grow flex flex-col items-center max-w-7xl mx-auto w-full">
         <button
-          className="mt-16 mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
+          className="mt-16 mb-6 flex font-semibold items-center space-x-2 border border-green-600 text-green-700 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
           type="button"
         >
           <span>Bonjour</span>
-          <span className="flex items-center justify-center size-6 p-1 rounded-full bg-indigo-600">
+          <span className="flex items-center justify-center size-6 p-1 rounded-full bg-green-600">
             <svg
               width="14"
               height="11"
@@ -173,17 +202,17 @@ function Hero() {
         </button>
         <h1 className="text-center text-gray-900 font-extrabold text-3xl sm:text-4xl md:text-5xl max-w-2xl leading-tight">
           Soyez les bien Bienvenus à{' '}
-          <span className="text-indigo-600">Helionux-Agency</span>
+          <span className="text-green-600">Helionux-Agency</span>
         </h1>
         <p className="mt-4 text-center text-gray-600 max-w-md text-sm sm:text-base leading-relaxed">
           Learn why professionals trust our solution to complete their customer
           journey.
         </p>
         <button
-          className="mt-8 bg-indigo-600 text-white px-6 pr-2.5 py-2.5 rounded-full text-sm font-medium flex items-center space-x-2 hover:bg-indigo-700 transition"
+          className="mt-8 bg-gradient-to-br from-green-700 to-green-500 text-white px-6 pr-2.5 py-2.5 rounded-full text-sm font-medium flex items-center space-x-2 hover:bg-indigo-700 transition"
           type="button"
         >
-          <span>Notre Equipes</span>
+          <Link to="/teams">Notre Equipes</Link>
           <svg
             width="20"
             height="20"

@@ -3,8 +3,8 @@ import React from 'react'
 function Footers() {
   return (
     <>
-      <footer className="px-6 md:px-16 lg:px-24 xl:px-32 w-full ">
-        <div className="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30">
+      <footer className="px-6 md:px-16 lg:px-24 xl:px-32 w-full bg-gray-900 dark:bg-gray-900 text-white dark:text-gray-100">
+        <div className="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-b-gray-800">
           <div className="max-w-96">
             <p className="mt-6 text-sm text-gray-500">
               Lorem Ipsum is simply dummy text of the printing and typesetting
