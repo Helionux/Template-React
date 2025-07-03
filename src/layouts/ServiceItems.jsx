@@ -15,9 +15,9 @@ function ServiceItems() {
           {/* Card 1  */}
           <div class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
             <div class="flex flex-col items-center border-b border-gray-300 pb-6">
-              <span class="mb-6 text-gray-800">Free</span>
-              <span class="mb-3 text-4xl font-medium">$0/mo</span>
-              <span class="text-gray-500">Best for 1-5 users</span>
+              <span class="mb-6 text-gray-800">Sites</span>
+              <span class="mb-3 text-4xl font-medium">100.000 FCFA</span>
+              <span class="text-gray-500"></span>
             </div>
             <div class="space-y-4 py-9">
               <div class="flex items-center gap-3">
@@ -36,7 +36,9 @@ function ServiceItems() {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                 </span>
-                <span class="text-sm text-gray-400">One workspace</span>
+                <span class="text-sm text-gray-400">
+                  Création des Sites Static
+                </span>
               </div>
               <div class="flex items-center gap-3">
                 <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
@@ -54,7 +56,9 @@ function ServiceItems() {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                 </span>
-                <span class="text-sm text-gray-400">Email support</span>
+                <span class="text-sm text-gray-400">
+                  Création des Sites Vitrines
+                </span>
               </div>
               <div class="flex items-center gap-3">
                 <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
@@ -73,7 +77,9 @@ function ServiceItems() {
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                   </svg>
                 </span>
-                <span class="text-sm text-gray-400">Basic analytics</span>
+                <span class="text-sm text-gray-400">
+                  Conception des cahiers de charge
+                </span>
               </div>
               <div class="flex items-center gap-3">
                 <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
@@ -263,7 +269,7 @@ function ServiceItems() {
           {/* Card 3  */}
           <div class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
             <div class="flex flex-col items-center border-b border-gray-300 pb-6">
-              <span class="mb-6 text-gray-800">Enterprise</span>
+              <span class="mb-6 text-gray-800"></span>
               <span class="mb-3 text-4xl font-medium">Contact us</span>
               <span class="text-gray-500">Best for 50+ users</span>
             </div>
