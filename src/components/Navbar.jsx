@@ -15,21 +15,21 @@ function Navbar() {
         }`}
       >
         <Link
-          className="hover:text-indigo-600"
+          className="hover:text-blue-600"
           to="/"
           onClick={() => setOpen(false)}
         >
           Accueil
         </Link>
         <Link
-          className="hover:text-indigo-600"
+          className="hover:text-blue-600"
           to="/services"
           onClick={() => setOpen(false)}
         >
           Services
         </Link>
         <Link
-          className="hover:text-indigo-600"
+          className="hover:text-blue-600"
           to="/teams"
           onClick={() => setOpen(false)}
         >
@@ -37,7 +37,7 @@ function Navbar() {
         </Link>
 
         <Link
-          className="hover:text-indigo-600"
+          className="hover:text-blue-600"
           to="/contact"
           onClick={() => setOpen(false)}
         >
@@ -112,7 +112,7 @@ function Navbar() {
           )}
         </button>
         <Link
-          className="hidden md:flex bg-gradient-to-br from-green-700 to-green-500 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 transition"
+          className="hidden md:flex bg-gradient-to-l from-cyan-700 to-gray-800/88  text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-cyan-300 transition"
           to="/login"
         >
           Se connecter

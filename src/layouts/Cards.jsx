@@ -122,9 +122,9 @@ function Cards() {
   return (
     <div className="flex flex-col items-center text-center mt-15 p-4">
       <h1 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-800">
-        Meet Our People
+        Notre Equipe
       </h1>
-      <p className="w-3/5 mb-14 text-gray-500 text-sm">
+      <p className="w-3/5 mb-14 text-black text-sm">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text.
       </p>
@@ -132,7 +132,7 @@ function Cards() {
         {teamMembers.map((member, idx) => (
           <div
             key={idx}
-            className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-blue-600 hover:bg-blue-600 transition"
+            className="group flex flex-col items-center py-8 text-sm bg-white border border-gray-300/60 w-64 rounded-md cursor-pointer hover:border-gray-900 hover:bg-cyan-900 transition"
           >
             <img
               src={member.img}
@@ -149,7 +149,7 @@ function Cards() {
             <p className="text-center text-gray-500/60 group-hover:text-white/60 w-3/4 mt-4">
               {member.description}
             </p>
-            <div className="flex items-center space-x-4 mt-6 text-gray-500 group-hover:text-white">
+            <div className="flex items-center space-x-4 mt-6 text-blue-500 group-hover:text-white">
               {member.socials.map((social, i) => (
                 <a href={social.href} key={i} aria-label={social.icon}>
                   {icons[social.icon]}

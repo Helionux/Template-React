@@ -43,7 +43,7 @@ function Hero() {
   const [theme, setTheme] = useState('light')
 
   return (
-    <section className="bg-gradient-to-b px-5 sm:px-10 from-[#00ec206c] via-[#4d92449d] to-[#4e8a1583] pt-6 h-full dark:bg-gray-900 text-gray-900 dark:text-gray-100 dar">
+    <section className="bg-gradient-to-bl from-cyan-400/20 to-gray-800/25 px-5 sm:px-10  pt-6 h-full dark:bg-gray-900 text-gray-900 dark:text-gray-100 dar">
       <header className="flex items-center justify-between px-6 py-3 md:py-4 shadow-sm max-w-5xl rounded-full mx-auto w-full bg-[#fdfdfdef]">
         <nav
           className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:overflow-hidden items-center justify-center transition-[width] backdrop-blur flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal
@@ -54,21 +54,21 @@ function Hero() {
         }`}
         >
           <Link
-            className="hover:text-indigo-600"
+            className="hover:text-blue-600"
             to="/"
             onClick={() => setOpen(false)}
           >
             Accueil
           </Link>
           <Link
-            className="hover:text-indigo-600"
+            className="hover:text-blue-600"
             to="/services"
             onClick={() => setOpen(false)}
           >
             Services
           </Link>
           <Link
-            className="hover:text-indigo-600"
+            className="hover:text-blue-600"
             to="/teams"
             onClick={() => setOpen(false)}
           >
@@ -76,7 +76,7 @@ function Hero() {
           </Link>
 
           <Link
-            className="hover:text-indigo-600"
+            className="hover:text-blue-600"
             to="/contact"
             onClick={() => setOpen(false)}
           >
@@ -151,7 +151,7 @@ function Hero() {
             )}
           </button>
           <Link
-            className="hidden md:flex bg-gradient-to-br from-green-700 to-green-500 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 transition"
+            className="hidden md:flex bg-gradient-to-l from-cyan-700 to-gray-800/88 text-white px-5 py-2 rounded-full text-sm font-medium hover:text-blue-600 transition"
             to="/login"
           >
             Se connecter
@@ -178,11 +178,11 @@ function Hero() {
       </header>
       <main className="flex-grow flex flex-col items-center max-w-7xl mx-auto w-full">
         <button
-          className="mt-16 mb-6 flex font-semibold items-center space-x-2 border border-green-600 text-green-700 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
+          className="mt-16 mb-6 flex font-semibold items-center space-x-2 border border-gray-600 text-gray-700 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
           type="button"
         >
           <span>Bonjour</span>
-          <span className="flex items-center justify-center size-6 p-1 rounded-full bg-green-600">
+          <span className="flex items-center justify-center size-6 p-1 rounded-full bg-gradient-to-l from-cyan-700 to-gray-800/88">
             <svg
               width="14"
               height="11"
@@ -202,14 +202,14 @@ function Hero() {
         </button>
         <h1 className="text-center text-gray-900 font-extrabold text-3xl sm:text-4xl md:text-5xl max-w-2xl leading-tight">
           Soyez les bien Bienvenus à{' '}
-          <span className="text-green-600">Helionux-Agency</span>
+          <span className="text-cyan-800">Helionux-Agency</span>
         </h1>
-        <p className="mt-4 text-center text-gray-600 max-w-md text-sm sm:text-base leading-relaxed">
+        <p className="mt-4 text-center text-black-600 max-w-md text-sm sm:text-base leading-relaxed">
           Learn why professionals trust our solution to complete their customer
           journey.
         </p>
         <button
-          className="mt-8 bg-gradient-to-br from-green-700 to-green-500 text-white px-6 pr-2.5 py-2.5 rounded-full text-sm font-medium flex items-center space-x-2 hover:bg-indigo-700 transition"
+          className="mt-8 bg-gradient-to-l from-cyan-700 to-gray-800/88 text-white px-6 pr-2.5 py-2.5 rounded-full text-sm font-medium flex items-center space-x-2 hover:bg-indigo-700 transition"
           type="button"
         >
           <Link to="/teams">Notre Equipes</Link>

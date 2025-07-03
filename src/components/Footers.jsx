@@ -10,7 +10,7 @@ function Footers() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been.
             </p>
-            <div className="flex items-center gap-2 mt-3">
+            <div className="flex items-center gap-2 text-blue-500 mt-3">
               <a href="#">
                 <svg
                   width="20"
