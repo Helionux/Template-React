@@ -50,12 +50,12 @@ function Slide() {
         aria-label="Défilement des cartes"
       >
         {/* Dégradé gauche */}
-        <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-[#F5F7FF] to-transparent" />
+        <div className="absolute left-0 top-15 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-[#F5F7FF] to-transparent" />
         {/* Marquee */}
         <div
           className={`marquee-inner flex w-fit ${stopScroll ? 'paused' : ''}`}
         >
-          <div className="flex mt-25">
+          <div className="flex mt-25 pb-10">
             {[...cardData, ...cardData].map((card, index) => (
               <div
                 key={index}
@@ -79,7 +79,7 @@ function Slide() {
           </div>
         </div>
         {/* Dégradé droit */}
-        <div className="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-[#F5F7FF] to-transparent" />
+        <div className="absolute right-0 top-15 h-full w-20 md:w-20 z-10 pointer-events-none bg-gradient-to-l from-[#F5F7FF] to-transparent" />
       </div>
     </div>
   )
