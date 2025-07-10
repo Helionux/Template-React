@@ -12,8 +12,8 @@ function Services() {
       <div className="flex flex-col min-h-screen bg-gradient-to-bl from-cyan-400/20 to-gray-800/25">
         <Navbar />
         <Slide />
-        <ItemService />
         <ServiceItems />
+        <ItemService />
         <ImageGallery />
         <Footers />
       </div>
