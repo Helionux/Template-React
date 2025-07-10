@@ -15,7 +15,7 @@ function ImageGallery() {
         <div class="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full">
           <img
             class="h-full w-full object-cover object-center"
-            src="https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop"
+            src="src/assets/premium_photo-1682724028871-80fe21ac920b.avif"
             alt="image"
           />
           <div class="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -29,7 +29,7 @@ function ImageGallery() {
         <div class="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full">
           <img
             class="h-full w-full object-cover object-right"
-            src="https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop"
+            src="src/assets/premium_photo-1681691912260-2ea4f6bf9991.avif"
             alt="image"
           />
           <div class="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -43,7 +43,7 @@ function ImageGallery() {
         <div class="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full">
           <img
             class="h-full w-full object-cover object-center"
-            src="https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop"
+            src="src/assets/PlanArcchitect.avif"
             alt="image"
           />
           <div class="absolute inset-0 flex flex-col justify-end p-10 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">

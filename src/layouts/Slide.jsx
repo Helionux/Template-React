@@ -3,23 +3,43 @@ import React from 'react'
 const cardData = [
   {
     title: 'Unlock Your Creative Flow',
-    image:
-      'https://images.unsplash.com/photo-1543487945-139a97f387d5?w=1200&auto=format&fit=crop&q=60',
+    image: 'src/assets/premium_photo-1682724028871-80fe21ac920b.avif',
   },
   {
     title: 'Design Your Digital Future',
-    image:
-      'https://images.unsplash.com/photo-1529254479751-faeedc59e78f?w=1200&auto=format&fit=crop&q=60',
+    image: 'src/assets/istockphoto-2189202711-612x612.webp',
   },
   {
     title: 'Build with Passion, Ship with Pride',
-    image:
-      'https://images.unsplash.com/photo-1618327907215-4e514efabd41?w=1200&auto=format&fit=crop&q=60',
+    image: 'src/assets/Image12.avif',
   },
   {
     title: 'Think Big, Code Smart',
-    image:
-      'https://images.unsplash.com/photo-1583407723467-9b2d22504831?w=1200&auto=format&fit=crop&q=60',
+    image: 'src/assets/istockphoto-1282518866-612x612.webp',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/OIP-528143261.jpeg',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/OIP-1727394745.jpeg',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/photo-1489514354504-1653aa90e34e.avif',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/photo-1615406020658-6c4b805f1f30.avif',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/photo-1508450859948-4e04fabaa4ea.avif',
+  },
+  {
+    title: 'Think Big, Code Smart',
+    image: 'src/assets/photo-1714562377019-e6d03ea94ba2.avif',
   },
 ]
 
@@ -43,20 +63,18 @@ function Slide() {
         }
       `}</style>
 
-      <section className="relative overflow-hidden border-b-2 border-gray-500 p-19 max-w-full">
+      <section className="relative overflow-hidden border-b-2 border-gray-500 p-10 max-w-full">
         <div
           className="overflow-hidden w-full relative max-w-6xl mx-auto"
           onMouseEnter={() => setStopScroll(true)}
           onMouseLeave={() => setStopScroll(false)}
           aria-label="Défilement des cartes"
         >
-          {/* Dégradé gauche */}
           <div className="absolute left-0 top-15 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-[#F5F7FF] to-transparent" />
-          {/* Marquee */}
           <div
             className={`marquee-inner flex w-fit ${stopScroll ? 'paused' : ''}`}
           >
-            <div className="flex mt-25 pb-10">
+            <div className="flex mt-20 pb-10">
               {[...cardData, ...cardData].map((card, index) => (
                 <div
                   key={index}
