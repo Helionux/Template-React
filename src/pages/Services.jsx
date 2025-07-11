@@ -4,7 +4,7 @@ import Slide from '../layouts/Slide'
 import Footers from '../components/Footers'
 import ServiceItems from '../layouts/ServiceItems'
 import ImageGallery from '../components/ImageGallery'
-import ItemService from '../components/ItemService'
+// import ItemService from '../components/ItemService'
 
 function Services() {
   return (
@@ -14,7 +14,8 @@ function Services() {
           <Navbar />
           <Slide />
           <ServiceItems />
-          <ItemService />
+          <hr className="border-b-2 border-gray-300 p-0.5" />
+          {/* <ItemService /> */}
           <ImageGallery />
           <Footers />
         </div>

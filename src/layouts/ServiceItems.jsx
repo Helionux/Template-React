@@ -3,7 +3,7 @@ import React from 'react'
 function ServiceItems() {
   return (
     <div>
-      <div className="py-20 max-w-5xl mx-auto px-5  border-b-2 border-gray-300 p-10 ">
+      <div className="py-20 max-w-5xl mx-auto px-5 p-10 ">
         <h1 className="text-center text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
           Nos Services
         </h1>
