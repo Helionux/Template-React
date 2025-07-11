@@ -63,7 +63,7 @@ function Slide() {
         }
       `}</style>
 
-      <section className="relative overflow-hidden border-b-2 border-gray-500 p-10 max-w-full">
+      <section className="relative overflow-hidden border-b-2 border-gray-300 p-10 max-w-full">
         <div
           className="overflow-hidden w-full relative max-w-6xl mx-auto"
           onMouseEnter={() => setStopScroll(true)}
