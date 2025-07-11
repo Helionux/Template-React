@@ -9,14 +9,16 @@ import ItemService from '../components/ItemService'
 function Services() {
   return (
     <>
-      <div className="flex flex-col min-h-screen bg-gradient-to-bl from-cyan-400/20 to-gray-800/25">
-        <Navbar />
-        <Slide />
-        <ServiceItems />
-        <ItemService />
-        <ImageGallery />
-        <Footers />
-      </div>
+      <section className="bg-gray-200/80">
+        <div className="flex flex-col min-h-screen  to-gray-800/25">
+          <Navbar />
+          <Slide />
+          <ServiceItems />
+          <ItemService />
+          <ImageGallery />
+          <Footers />
+        </div>
+      </section>
     </>
   )
 }

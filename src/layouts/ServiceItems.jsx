@@ -3,386 +3,65 @@ import React from 'react'
 function ServiceItems() {
   return (
     <div>
-      <div class="py-20 max-w-5xl mx-auto px-4">
-        <h1 class="text-center text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
-          Services
+      <div className="py-20 max-w-5xl mx-auto px-4">
+        <h1 className="text-center text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
+          Nos Services
         </h1>
-        <p class="text-center text-gray-400 md:text-lg mt-2">
+        <p className="text-center text-gray-400 md:text-lg mt-2">
           Use it for free for yourself, upgrade when your team needs advanced
           control.
         </p>
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 mt-10">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 mt-10">
           {/* Card 1  */}
-          <div class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
-            <div class="flex flex-col items-center border-b border-gray-300 pb-6">
-              <span class="mb-6 text-gray-800">Sites</span>
-              <span class="mb-3 text-4xl font-medium">100.000 FCFA</span>
-              <span class="text-gray-500"></span>
+          <div className="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+            <div className="flex flex-col items-center border-b border-gray-300 pb-6">
+              <span className="mb-3 text-3xl font-medium">
+                Cabinet D'études
+              </span>
+              <span className="text-gray-500"></span>
             </div>
-            <div class="space-y-4 py-9">
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Création des Sites Static
-                </span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Création des Sites Vitrines
-                </span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Conception des cahiers de charge
-                </span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Team collaboration</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Priority support</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Unlimited file storage{' '}
-                </span>
+            <div className="space-y-4 py-9 flex items-center justify-center">
+              <div className="">
+                <p className="text-black text-sm my-3 ml-2">
+                  Nous disposons d'un cabinet d'études pour vous accompagner
+                  dans vos projects.
+                </p>
+                <div className="">
+                  <span>
+                    Nous proposons des études personnalisées et des conseils
+                    adaptés à vos besoins, allant des études topographiques aux
+                    études de faisabilité.
+                  </span>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Card 2  */}
-          <div class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
-            <div class="flex flex-col items-center border-b border-gray-300 pb-6">
-              <span class="mb-6 text-gray-800">Pro</span>
-              <span class="mb-3 text-4xl font-medium">$79/mo</span>
-              <span class="text-gray-500">Best for 5-50 users</span>
+          <div className="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+            <div className="flex flex-col items-center border-b border-gray-300 pb-6">
+              <span className="mb-3 text-3xl font-medium">Conceptions</span>
             </div>
-            <div class="space-y-4 py-9">
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">One workspace</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Email support</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Basic analytics</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Team collaboration</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Priority support</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-gray-200 text-sm text-gray-600">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Unlimited file storage{' '}
-                </span>
+            <div className="space-y-4 py-9">
+              <div className="flex items-center gap-3">
+                <p class="text-black text-sm my-3 ml-2">
+                  Nous proposons des conceptions personnalisées pour vos
+                  projects de constructions de bâtiments, routes, et autres
+                  infrastructures. Nous disposons d'une équipe d'experts pour
+                  vous aider à réaliser vos projects de constructions.
+                </p>
               </div>
             </div>
           </div>
 
           {/* Card 3  */}
-          <div class="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
-            <div class="flex flex-col items-center border-b border-gray-300 pb-6">
-              <span class="mb-6 text-gray-800"></span>
-              <span class="mb-3 text-4xl font-medium">Contact us</span>
-              <span class="text-gray-500">Best for 50+ users</span>
+          <div className="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+            <div className="flex flex-col items-center border-b border-gray-300 pb-6">
+              <span className="mb-3 text-3xl font-medium">Réalisations</span>
             </div>
-            <div class="space-y-4 py-9">
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">One workspace</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Email support</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Basic analytics</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Team collaboration</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">Priority support</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <span class="grid size-5 place-content-center rounded-full bg-indigo-500 text-sm text-white">
-                  <svg
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                </span>
-                <span class="text-sm text-gray-400">
-                  Unlimited file storage{' '}
-                </span>
+            <div className="space-y-4 py-9">
+              <div className="flex items-center gap-3">
+                <span className="text-sm text-gray-400">--------</span>
               </div>
             </div>
           </div>
